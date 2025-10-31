@@ -1,6 +1,6 @@
 package co.edu.uniquindio.projectfedericosantiagojhoan.model;
 
-public  abstract class ServicioSeguridad  implements Auditable {
+public  abstract class ServicioSeguridad  implements IAuditable {
 
     protected String codigocontrato;
     protected String cliente;

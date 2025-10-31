@@ -1,6 +1,6 @@
 package co.edu.uniquindio.projectfedericosantiagojhoan.model;
 
-public class PatrullajeMovil  extends ServicioSeguridad {
+public abstract class PatrullajeMovil extends ServicioSeguridad {
 
     private int cantidadAutos ;
     private double kilometrosRecorridos;

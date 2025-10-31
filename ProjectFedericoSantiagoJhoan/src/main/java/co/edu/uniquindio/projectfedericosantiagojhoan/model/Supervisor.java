@@ -2,7 +2,7 @@ package co.edu.uniquindio.projectfedericosantiagojhoan.model;
 
 import java.util.List;
 
-public  class Supervisor extends Empleado {
+public abstract class Supervisor extends Empleado {
 
     private double bonoCoordinacion;
 

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public abstract class Empleado  implements Auditable {
+public abstract class Empleado  implements IAuditable {
 
     protected String nombre ;
     protected String id ;
@@ -20,6 +20,9 @@ public abstract class Empleado  implements Auditable {
         this.salario = salario;
         this.horasExtra = horasExtra;
         this.listEquipo = listEquipo;
+    }
+
+    public Empleado(int id, String nombre, String cargo, double salario) {
     }
 
     public String getNombre() {
@@ -81,4 +84,6 @@ public abstract class Empleado  implements Auditable {
                 ", listEquipo=" + listEquipo +
                 '}';
     }
+
+    public abstract void setCargo(String cargo);
 }

@@ -2,7 +2,7 @@ package co.edu.uniquindio.projectfedericosantiagojhoan.model;
 
 import java.util.List;
 
-public class OperadorMonitoreo extends Empleado{
+public abstract class OperadorMonitoreo extends Empleado{
 
     private int numZonas ;
 

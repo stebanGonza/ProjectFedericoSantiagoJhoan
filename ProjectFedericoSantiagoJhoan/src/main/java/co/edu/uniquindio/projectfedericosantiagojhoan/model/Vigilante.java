@@ -2,7 +2,7 @@ package co.edu.uniquindio.projectfedericosantiagojhoan.model;
 
 import java.util.List;
 
-public class Vigilante extends Empleado{
+public abstract class Vigilante extends Empleado{
 
     private int numPuesto;
 

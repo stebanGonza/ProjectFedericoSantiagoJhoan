@@ -1,6 +1,6 @@
 package co.edu.uniquindio.projectfedericosantiagojhoan.model;
 
-public class MonitoreoRemoto  extends ServicioSeguridad{
+public abstract class MonitoreoRemoto extends ServicioSeguridad{
 
     private int cantidadDips;
 
